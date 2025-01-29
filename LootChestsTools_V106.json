@@ -1,142 +1,124 @@
 {
-  "LCTools": [
-    {
-      "name": "SledgeHammer",
-      "time": 5,
-      "dmg": 50,
-      "desc": ""
-    },
-    {
-      "name": "Crowbar",
-      "time": 30,
-      "dmg": 25,
-      "desc": ""
-    },
-    {
-      "name": "Lockpick",
-      "time": 60,
-      "dmg": 25,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key1",
-      "time": 3,
-      "dmg": 10,
-      "desc": "Black Key|This key will open a military crate inside the Tisy Headquarters Building!"
-    },
-    {
-      "name": "CJ_Key2",
-      "time": 3,
-      "dmg": 10,
-      "desc": "Military Key|This key will open a military crate inside the Tisy Headquarters Building!"
-    },
-    {
-      "name": "CJ_Key3",
-      "time": 3,
-      "dmg": 10,
-      "desc": "Tisy HQ Key|This key will open a military crate inside the Tisy Headquarters Building!"
-    },
-    {
-      "name": "CJ_Key4",
-      "time": 3,
-      "dmg": 10,
-      "desc": "NAME of KEY|DESCRIPTION of KEY"
-    },
-    {
-      "name": "CJ_Key5",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key6",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key7",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key8",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key9",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key10",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key11",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key12",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key101",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key102",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key103",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key200",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key201",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key202",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key203",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    },
-    {
-      "name": "CJ_Key204",
-      "time": 3,
-      "dmg": 10,
-      "desc": ""
-    }
-  ]
-}
+    "LCTools": [
+      {
+        "name": "CJ_Key1",
+        "time": 3,
+        "dmg": 10,
+        "desc": "Azzablah Black Key|This black key opens crates hidden in the town of Azzablah."
+      },
+      {
+        "name": "CJ_Key2",
+        "time": 3,
+        "dmg": 10,
+        "desc": "Oil Fields Key|A grey key that opens crates at Al Falqas Oil Fields."
+      },
+      {
+        "name": "CJ_Key3",
+        "time": 3,
+        "dmg": 10,
+        "desc": "Bastam Key|A brown key that opens crates at Bastam."
+      },
+      {
+        "name": "CJ_Key4",
+        "time": 3,
+        "dmg": 10,
+        "desc": "Rasman Airbase Key|A green key that opens crates at Rasman Airfield Military."
+      },
+      {
+        "name": "CJ_Key5",
+        "time": 3,
+        "dmg": 10,
+        "desc": "South Air Base Key|A olive key that opens crates at South Airfield Military."
+      },
+      {
+        "name": "CJ_Key6",
+        "time": 3,
+        "dmg": 10,
+        "desc": "Rustaq Military Key|A yellow key that opens crates at Rustaq Military."
+      },
+      {
+        "name": "CJ_Key7",
+        "time": 3,
+        "dmg": 10,
+        "desc": "FEERUZABAD MILITARY KEY|A red key that opens crates at Feeruzabad Military."
+      },
+      {
+        "name": "CJ_Key8",
+        "time": 3,
+        "dmg": 10,
+        "desc": "RADAR STATION KEY|A blue key that opens crates at the Radar Station."
+      },
+      {
+        "name": "CJ_Key9",
+        "time": 3,
+        "dmg": 10,
+        "desc": "CURSED KEY|An old key that has no writing on it."
+      },
+      {
+        "name": "CJ_Key10",
+        "time": 3,
+        "dmg": 10,
+        "desc": "TREASURE KEY|A key that opens a chest that is said to have treasures inside, it has a radio signal engraved."
+      },
+      {
+        "name": "CJ_Key11",
+        "time": 3,
+        "dmg": 10,
+        "desc": "MARKED KEY|An old key that has faded engraving, you can make out FAR."
+      },
+      {
+        "name": "CJ_Key12",
+        "time": 3,
+        "dmg": 10,
+        "desc": "RASMAN FOB KEY|An old key that opens a wood crate, it has Rasman FOB engraved."
+      },
+      {
+        "name": "CJ_Key101",
+        "time": 3,
+        "dmg": 10,
+        "desc": "CASH REGISTER KEY|A generic key that looks like it opens a cash register."
+      },
+      {
+        "name": "CJ_Key102",
+        "time": 3,
+        "dmg": 10,
+        "desc": "INDUSTRIAL KEY|A lock key that has tape with Al Nadaya written across it."
+      },
+      {
+        "name": "CJ_Key103",
+        "time": 3,
+        "dmg": 10,
+        "desc": "RUSTY UNMARKED KEY|A key that has rust, it must open something near water."
+      },
+      {
+        "name": "CJ_Key200",
+        "time": 3,
+        "dmg": 10,
+        "desc": "BLACK SAFE KEYCARD|A Keycard that Opens a Safe in Hachaman."
+      },
+      {
+        "name": "CJ_Key201",
+        "time": 3,
+        "dmg": 10,
+        "desc": "BLUE SAFE KEYCARD|A Keycard that Opens a Safe in ChakChak"
+      },
+      {
+        "name": "CJ_Key202",
+        "time": 3,
+        "dmg": 10,
+        "desc": "GREEN SAFE KEYCARD|A Keycard that Opens a Safe in Al Hamiqqah"
+      },
+      {
+        "name": "CJ_Key203",
+        "time": 3,
+        "dmg": 10,
+        "desc": "YELLOW SAFE KEYCARD|A Keycard that Opens a Safe in Nur"
+      },
+      {
+        "name": "CJ_Key204",
+        "time": 3,
+        "dmg": 10,
+        "desc": "RED SAFE KEYCARD|A Keycard that Opens a Safe in Al Babair"
+      }
+    ]
+  }
