@@ -1,141 +1,650 @@
- "LCPredefinedWeapons": [
-    {
-      "defname": "LC_predefined_SVD",
-      "weapon": "SVD",
-      "magazine": "Mag_SVD_10Rnd",
-      "attachments": [
-        "AK_Suppressor"
-      ],
-      "optic": "PSO11Optic",
-      "opticbattery": 1
-    },
-    {
-      "defname": "LC_predefined_VSS",
-      "weapon": "VSS",
-      "magazine": "Mag_VSS_10Rnd",
-      "attachments": [
-        "AK_Suppressor"
-      ],
-      "optic": "KobraOptic",
-      "opticbattery": 1
-    },
-    {
-      "defname": "LC_predefined_Tundra",
-      "weapon": "Winchester70",
-      "magazine": "",
-      "attachments": [
-        ""
-      ],
-      "optic": "HuntingOptic",
-      "opticbattery": 0
-    },
-    {
-      "defname": "LC_predefined_Blaze",
-      "weapon": "B95",
-      "magazine": "",
-      "attachments": [
-        ""
-      ],
-      "optic": "HuntingOptic",
-      "opticbattery": 0
-    },
-    {
-      "defname": "LC_predefined_M4",
-      "weapon": "M4A1",
-      "magazine": "Mag_STANAG_30Rnd",
-      "attachments": [
-        "M4_Suppressor",
-        "M4_RISHndgrd_Black",
-        "M4_MPBttstck_Black"
-      ],
-      "optic": "ACOGOptic_6x",
-      "opticbattery": 0
-    },
-    {
-      "defname": "LC_predefined_SKS",
-      "weapon": "SKS",
-      "magazine": "",
-      "attachments": [
-        ""
-      ],
-      "optic": "PUScopeOptic",
-      "opticbattery": 0
-    },
-    {
-      "defname": "LC_predefined_CZ527",
-      "weapon": "CZ527",
-      "magazine": "Mag_CZ527_5rnd",
-      "attachments": [
-        ""
-      ],
-      "optic": "HuntingOptic",
-      "opticbattery": 0
-    },
-    {
-      "defname": "LC_predefined_AKM",
-      "weapon": "AKM",
-      "magazine": "Mag_AKM_30Rnd",
-      "attachments": [
-        "AK_Suppressor",
-        "AK_WoodHndgrd",
-        "AK_WoodBttstck"
-      ],
-      "optic": "KobraOptic",
-      "opticbattery": 1
-    },
-    {
-      "defname": "LC_predefined_AK74",
-      "weapon": "AK74",
-      "magazine": "Mag_AK74_30Rnd",
-      "attachments": [
-        "AK_Suppressor",
-        "AK74_Hndgrd",
-        "AK74_WoodBttstck"
-      ],
-      "optic": "KobraOptic",
-      "opticbattery": 1
-    },
-    {
-      "defname": "LC_predefined_AK101",
-      "weapon": "AK101",
-      "magazine": "Mag_AK101_30Rnd",
-      "attachments": [
-        "AK_Suppressor",
-        "AK_PlasticHndgrd",
-        "AK_PlasticBttstck"
-      ],
-      "optic": "KobraOptic",
-      "opticbattery": 1
-    },
-    {
-      "defname": "LC_predefined_FAL",
-      "weapon": "FAL",
-      "magazine": "Mag_FAL_20Rnd",
-      "attachments": [
-        "Fal_OeBttstck"
-      ],
-      "optic": "ACOGOptic",
-      "opticbattery": 0
-    },
-    {
-      "defname": "LC_predefined_MP5",
-      "weapon": "MP5k",
-      "magazine": "Mag_MP5_30Rnd",
-      "attachments": [
-        "MP5_Compensator",
-        "MP5k_StockBttstck",
-        "MP5_RailHndgrd"
-      ],
-      "optic": "ReflexOptic",
-      "opticbattery": 1
-    }
-  ],
-  "LootCategories": [
-    {
-      "name": "LC_Table_Weapons_1",
-      "Loot": [
-        "Glock19",
-        "Colt1911",
-        "MakarovIJ70"
-      ]
-    },
+{
+    "EnableDebug": 0,
+    "DeleteLogs": 1,
+    "MaxSpareMags": 3,
+    "RandomQuantity": 0,
+    "LootChestsLocations": [
+        {
+            "name": "Al Babir Safes",
+            "number": 4,
+            "pos": [
+                "10496.9 138.441 11076.3|38.3196 0 0",
+                "10486.8 140.552 11083|316.957 0 0",
+                "10620.1 141.991 11036.4|183.424 0 0",
+                "10619.7 145.642 11027.2|8.0686 0 0",
+                "10398.5 135.621 11083.4|260.596 0 0",
+                "10389.8 135.162 11130.7|192.63 0 0",
+                "10396 134.897 11099.1|353.699 0 0",
+                "10729.3 146.329 10721.9|92.6986 0 0"
+            ],
+            "keyclass": "CJ_Key204",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_MoneySafe_New_Card_L4"
+            ],
+            "lootrandomize": 0,
+            "light": 1,
+            "loot": [
+                "LC_KEYCARD_COLLECTABLES"
+            ],
+            "respawn": 1,
+            "respawn_timer": 3600,
+            "randomize_position": 0
+        },
+        {
+            "name": "Nur Safes",
+            "number": 6,
+            "pos": [
+                "1974.51 143.863 11737|172.984 0 0",
+                "1797.72 146.136 11941|308.525 0 0",
+                "1776.26 146.268 11918.1|49.7771 0 0",
+                "1813.7 149.766 11915.7|36.5573 0 0",
+                "1817.44 145.96 11960.2|51.2392 0 0",
+                "1833.79 149.373 11981.2|61.4237 0 0",
+                "1784.49 154.084 11878.9|232.833 0 0",
+                "1823.65 155.391 11869.9|67.5184 0 0",
+                "1830.07 153.202 11811.5|57.7912 0 0",
+                "1610.42 195.069 11634|39.931 0 0"
+            ],
+            "keyclass": "CJ_Key203",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_MoneySafe_New_Card_L3"
+            ],
+            "lootrandomize": 0,
+            "light": 1,
+            "loot": [
+                "LC_KEYCARD_COLLECTABLES"
+            ],
+            "respawn": 1,
+            "respawn_timer": 3600,
+            "randomize_position": 0
+        },
+        {
+            "name": "Al Hamiqqah Safes",
+            "number": 6,
+            "pos": [
+                "1573.86 236.852 5739.21|245.143 0 0",
+                "1534.51 234.416 5718.66|229.103 0 0",
+                "1517.69 239.547 5704.38|253.237 0 0",
+                "1524.09 241.051 5623.33|270.18 0 0",
+                "1496.36 250.017 5810.54|341.479 0 0",
+                "1622.1 230.733 5699.87|19.2199 0 0",
+                "1620.45 231.406 5711.72|173.724 0 0",
+                "1560.8 248.105 5551.08|228.994 0 0",
+                "1525.92 242.926 5602.07|32.8761 0 0"
+            ],
+            "keyclass": "CJ_Key202",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_MoneySafe_New_Card_L3"
+            ],
+            "lootrandomize": 0,
+            "light": 1,
+            "loot": [
+                "LC_KEYCARD_COLLECTABLES"
+            ],
+            "respawn": 1,
+            "respawn_timer": 3600,
+            "randomize_position": 0
+        },
+        {
+            "name": "ChakChak Safes",
+            "number": 6,
+            "pos": [
+                "4615.03 321.125 668.953|173.441 0 0",
+                "4615.73 323.593 660.536|228.073 0 0",
+                "4610.54 322.221 657.468|279.303 0 0",
+                "4687.18 317.941 700.502|228.208 0 0",
+                "4671.61 317.949 727.451|222.266 0 0",
+                "4667.14 322.515 727.345|127.961 0 0",
+                "4610.71 329.145 753.54|326.167 0 0",
+                "4534.64 340.103 714.158|357.419 0 0",
+                "4609.91 329.145 754.55|35.7503 0 0",
+                "4724.47 317.89 755.585|245.589 0 0",
+                "4611.1 317.776 655.284|277.49 0 0"
+            ],
+            "keyclass": "CJ_Key201",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_MoneySafe_New_Card_L2"
+            ],
+            "lootrandomize": 0,
+            "light": 1,
+            "loot": [
+                "LC_KEYCARD_COLLECTABLES"
+            ],
+            "respawn": 1,
+            "respawn_timer": 3600,
+            "randomize_position": 0
+        },
+        {
+            "name": "Hachaman Safes",
+            "number": 6,
+            "pos": [
+                "9176.03 180.388 9728.88|275.469 0 0",
+                "9127.57 177.409 9754.92|160.855 0 0",
+                "9154.83 177.655 9750.56|291.904 0 0",
+                "9153.4 180.758 9747.57|11.7086 0 0",
+                "9152.64 180.117 9773.25|311.713 0 0",
+                "9176.97 177.147 9757.91|339.555 0 0",
+                "9133.49 183.363 9508.79|156.755 0 0",
+                "9340.92 167.18 10006.9|195.287 0 0",
+                "9313.51 164.031 10062.3|151.063 0 0",
+                "9099.15 178.393 9715.18|93.5726 0 0",
+                "9102.55 179.027 9686.51|172.691 0 0",
+                "9114.97 179.027 9683.83|9.13692 0 0",
+                "9095.92 176.962 9776.76|11.7555 0 0",
+                "9099.31 179.887 9785.89|286.401 0 0"
+            ],
+            "keyclass": "CJ_Key200",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_MoneySafe_New_Card_L1"
+            ],
+            "lootrandomize": 0,
+            "light": 1,
+            "loot": [
+                "LC_KEYCARD_COLLECTABLES"
+            ],
+            "respawn": 1,
+            "respawn_timer": 3600,
+            "randomize_position": 0
+        },
+        {
+            "name": "Tisy Headquarter 2nd Floor",
+            "number": 1,
+            "pos": [
+                "1680.452637 456.617462 14221.413086|-16.999992 0 0",
+                "1677.494141 456.617462 14214.438477|-106.999557 0 0",
+                "1679.578125 456.617462 14218.459961|72.999779 0 0",
+                "1676.767212 456.617462 14220.083008|-39.999939 0 0",
+                "1684.607544 456.617462 14208.651367|69.999794 0 0",
+                "1687.046753 456.617462 14210.420898|17.999992 0 0",
+                "1693.652954 456.617462 14210.448242|162.999771 0 0",
+                "1691.022583 456.617462 14221.329102|162.999771 0 0"
+            ],
+            "keyclass": "CJ_Key2",
+            "openable": 1,
+            "chest": [
+                "CJ_LootChest_Olive_Small",
+                "CJ_LootChest_Olive_Medium",
+                "CJ_LootChest_Olive_Large"
+            ],
+            "lootrandomize": 0.5,
+            "light": 1,
+            "loot": [
+                "LC_Table_Weapons_2",
+                "LC_Table_Magazines_1",
+                "LC_Table_Magazines_2",
+                "BandageDressing",
+                "NVGHeadstrap",
+                "TTSKOPants",
+                "TTsKOJacket_Camo",
+                "TacticalBaconCan",
+                "NVGoggles",
+                "LC_predefined_SVD"
+            ],
+            "respawn": 0,
+            "respawn_timer": 0,
+            "randomize_position": 0
+        },
+        {
+            "name": "Tisy Headquarter Bunker",
+            "number": 1,
+            "pos": [
+                "1693.641968 448.389740 14206.955078|162.999771 0 0",
+                "1686.152344 448.389740 14206.158203|-15.999994 0 0",
+                "1680.582642 448.389740 14206.187500|-153.999619 0 0",
+                "1683.969604 448.389740 14213.902344|-105.999565 0 0",
+                "1687.283569 448.389740 14211.497070|-15.999994 0 0",
+                "1689.146851 448.389740 14208.608398|164.999847 0 0",
+                "1690.969727 448.389740 14210.279297|-134.999619 0 0"
+            ],
+            "keyclass": "CJ_Key3",
+            "openable": 2,
+            "chest": [
+                "CJ_LootChest_Tan_Small",
+                "CJ_LootChest_Tan_Medium",
+                "CJ_LootChest_Tan_Large"
+            ],
+            "lootrandomize": 0.8999999761581421,
+            "light": 1,
+            "loot": [
+                "LC_Table_Weapons_1",
+                "LC_Table_Weapons_2",
+                "LC_Table_Magazines_1",
+                "LC_Table_Magazines_2",
+                "LC_Table_Attachments",
+                "LC_predefined_AKM",
+                "LC_predefined_M4",
+                "AmmoBox_545x39_20Rnd",
+                "AmmoBox_545x39_20Rnd",
+                "AmmoBox_545x39_20Rnd",
+                "AmmoBox_762x39_20Rnd",
+                "AmmoBox_762x39_20Rnd",
+                "AmmoBox_762x39_20Rnd",
+                "AmmoBox_762x39_20Rnd",
+                "AmmoBox_762x39_20Rnd",
+                "BandageDressing",
+                "WeaponCleaningKit"
+            ],
+            "respawn": 0,
+            "respawn_timer": 0,
+            "randomize_position": 0
+        }
+    ],
+    "LCPredefinedWeapons": [
+        {
+            "defname": "LC_predefined_SVD",
+            "weapon": "SVD",
+            "magazine": "Mag_SVD_10Rnd",
+            "attachments": [
+                "AK_Suppressor"
+            ],
+            "optic": "PSO11Optic",
+            "opticbattery": 1
+        },
+        {
+            "defname": "LC_predefined_VSS",
+            "weapon": "VSS",
+            "magazine": "Mag_VSS_10Rnd",
+            "attachments": [
+                "AK_Suppressor"
+            ],
+            "optic": "KobraOptic",
+            "opticbattery": 1
+        },
+        {
+            "defname": "LC_predefined_Tundra",
+            "weapon": "Winchester70",
+            "magazine": "",
+            "attachments": [
+                ""
+            ],
+            "optic": "HuntingOptic",
+            "opticbattery": 0
+        },
+        {
+            "defname": "LC_predefined_Blaze",
+            "weapon": "B95",
+            "magazine": "",
+            "attachments": [
+                ""
+            ],
+            "optic": "HuntingOptic",
+            "opticbattery": 0
+        },
+        {
+            "defname": "LC_predefined_M4",
+            "weapon": "M4A1",
+            "magazine": "Mag_STANAG_30Rnd",
+            "attachments": [
+                "M4_Suppressor",
+                "M4_RISHndgrd_Black",
+                "M4_MPBttstck_Black"
+            ],
+            "optic": "ACOGOptic_6x",
+            "opticbattery": 0
+        },
+        {
+            "defname": "LC_predefined_SKS",
+            "weapon": "SKS",
+            "magazine": "",
+            "attachments": [
+                ""
+            ],
+            "optic": "PUScopeOptic",
+            "opticbattery": 0
+        },
+        {
+            "defname": "LC_predefined_CZ527",
+            "weapon": "CZ527",
+            "magazine": "Mag_CZ527_5rnd",
+            "attachments": [
+                ""
+            ],
+            "optic": "HuntingOptic",
+            "opticbattery": 0
+        },
+        {
+            "defname": "LC_predefined_AKM",
+            "weapon": "AKM",
+            "magazine": "Mag_AKM_30Rnd",
+            "attachments": [
+                "AK_Suppressor",
+                "AK_WoodHndgrd",
+                "AK_WoodBttstck"
+            ],
+            "optic": "KobraOptic",
+            "opticbattery": 1
+        },
+        {
+            "defname": "LC_predefined_AK74",
+            "weapon": "AK74",
+            "magazine": "Mag_AK74_30Rnd",
+            "attachments": [
+                "AK_Suppressor",
+                "AK74_Hndgrd",
+                "AK74_WoodBttstck"
+            ],
+            "optic": "KobraOptic",
+            "opticbattery": 1
+        },
+        {
+            "defname": "LC_predefined_AK101",
+            "weapon": "AK101",
+            "magazine": "Mag_AK101_30Rnd",
+            "attachments": [
+                "AK_Suppressor",
+                "AK_PlasticHndgrd",
+                "AK_PlasticBttstck"
+            ],
+            "optic": "KobraOptic",
+            "opticbattery": 1
+        },
+        {
+            "defname": "LC_predefined_FAL",
+            "weapon": "FAL",
+            "magazine": "Mag_FAL_20Rnd",
+            "attachments": [
+                "Fal_OeBttstck"
+            ],
+            "optic": "ACOGOptic",
+            "opticbattery": 0
+        },
+        {
+            "defname": "LC_predefined_MP5",
+            "weapon": "MP5k",
+            "magazine": "Mag_MP5_30Rnd",
+            "attachments": [
+                "MP5_Compensator",
+                "MP5k_StockBttstck",
+                "MP5_RailHndgrd"
+            ],
+            "optic": "ReflexOptic",
+            "opticbattery": 1
+        }
+    ],
+    "LootCategories": [
+        {
+            "name": "LC_Table_Weapons_1",
+            "Loot": [
+                "Glock19",
+                "Colt1911",
+                "MakarovIJ70"
+            ]
+        },
+        {
+            "name": "LC_Table_Weapons_2",
+            "Loot": [
+                "LC_predefined_M4",
+                "LC_predefined_AKM",
+                "LC_predefined_MP5",
+                "LC_predefined_SVD",
+                "LC_predefined_VSS",
+                "LC_predefined_Tundra",
+                "LC_predefined_Blaze",
+                "LC_predefined_SKS",
+                "LC_predefined_CZ527",
+                "LC_predefined_AK74",
+                "LC_predefined_AK101",
+                "LC_predefined_FAL"
+            ]
+        },
+        {
+            "name": "LC_Table_Magazines_1",
+            "Loot": [
+                "Mag_MP5_30Rnd",
+                "Mag_AK74_30Rnd",
+                "Mag_CZ527_5rnd"
+            ]
+        },
+        {
+            "name": "LC_Table_Magazines_2",
+            "Loot": [
+                "Mag_STANAG_30Rnd",
+                "Mag_AKM_30Rnd",
+                "Mag_FAL_20Rnd"
+            ]
+        },
+        {
+            "name": "LC_Table_Attachments",
+            "Loot": [
+                "AK_Suppressor",
+                "M4_Suppressor",
+                "ACOGOptic"
+            ]
+        },
+        {
+            "name": "LC_KEYCARD_COLLECTABLES",
+            "Loot": [
+                "EFT_Accum",
+                "EFT_Antiinsect",
+                "EFT_Carbattery",
+                "EFT_Powder_red",
+                "EFT_roulette",
+                "EFT_Powder_green",
+                "EFT_Powder",
+                "EFT_Screwdriver_long",
+                "EFT_Screwdriver",
+                "EFT_Screwdriver_krest",
+                "EFT_Sheloch",
+                "EFT_Termite",
+                "EFT_Tee",
+                "EFT_Teddy",
+                "EFT_Tea",
+                "EFT_Tank_Accum",
+                "EFT_Syringer",
+                "EFT_Surv",
+                "EFT_SSD",
+                "EFT_Soda",
+                "EFT_Soap",
+                "EFT_SkullRing",
+                "EFT_SiliconTube",
+                "EFT_Shilo",
+                "EFT_Shampoo",
+                "EFT_Sewing",
+                "EFT_Securedtape",
+                "EFT_Screw_pack",
+                "EFT_skoth",
+                "EFT_SAS",
+                "EFT_Salt",
+                "EFT_Rolex",
+                "EFT_RFIDreader",
+                "EFT_Repellent",
+                "EFT_Rele",
+                "EFT_RecipeBook",
+                "EFT_Raven",
+                "EFT_RatKiller1",
+                "EFT_RAM",
+                "EFT_propan",
+                "EFT_ProKill",
+                "EFT_PressureGauge",
+                "EFT_Poxearm",
+                "EFT_powerSupply",
+                "EFT_PowerFilter",
+                "EFT_PowerCord",
+                "EFT_Powerbank",
+                "EFT_PipeCleaner",
+                "EFT_Pile",
+                "EFT_Parrot",
+                "EFT_paperA4",
+                "EFT_OrgGlass",
+                "EFT_OFZ",
+                "EFT_Nyball3",
+                "EFT_Nyball2",
+                "EFT_Nyball",
+                "EFT_model_nuts",
+                "EFT_Nails_pack",
+                "EFT_NaCl",
+                "EFT_polyurethane_foam",
+                "EFT_Modem",
+                "EFT_Military_cable",
+                "EFT_Military_board",
+                "EFT_MetalScissors",
+                "EFT_MetalParts",
+                "EFT_MedTools",
+                "EFT_Mediator",
+                "EFT_matches",
+                "EFT_Maps",
+                "EFT_Magnet",
+                "EFT_Lupo",
+                "EFT_q_Jurnals1",
+                "EFT_q_Jurnals2",
+                "EFT_q_Jurnals3",
+                "EFT_Videocassette",
+                "EFT_Toughbook",
+                "EFT_SecureUSB1",
+                "EFT_SecureUSB2",
+                "EFT_q_doc_Goshan",
+                "EFT_q_doc_IDEA",
+                "EFT_q_doc_OLI",
+                "EFT_q_doc_OLIroute",
+                "EFT_q_ProtectedCase0013",
+                "EFT_q_ProtectedCase0022",
+                "EFT_q_ProtectedCase0031",
+                "EFT_q_ProtectedCase0048",
+                "EFT_q_ProtectedCase0052",
+                "EFT_q_ProtectedCase0060",
+                "EFT_q_Motorcontroller",
+                "EFT_q_Letter1",
+                "EFT_q_Letter2",
+                "EFT_q_GALSD3",
+                "EFT_q_Document1",
+                "EFT_q_Document2",
+                "EFT_q_Document3",
+                "EFT_q_Document4",
+                "EFT_q_Document5",
+                "EFT_q_Document6",
+                "EFT_q_ClochingBook1",
+                "EFT_q_ClochingBook2",
+                "EFT_Carbonecase",
+                "EFT_LootLord",
+                "EFT_Lion",
+                "EFT_Lens",
+                "EFT_LEDX",
+                "EFT_LCD_broken",
+                "EFT_LCD_worker",
+                "EFT_kusajki",
+                "EFT_Kresalo",
+                "EFT_Klean",
+                "EFT_Kerosin",
+                "EFT_KEK",
+                "EFT_chain",
+                "EFT_Iridium",
+                "EFT_Insulatingtape",
+                "EFT_WD40_400",
+                "EFT_incandescentlamp",
+                "EFT_WD40_100",
+                "EFT_Hunter_match",
+                "EFT_Household",
+                "EFT_Hose_military",
+                "EFT_Hose",
+                "EFT_horse",
+                "EFT_Helix",
+                "EFT_HDD1",
+                "EFT_HDD",
+                "EFT_HandDrill",
+                "EFT_H2O2",
+                "EFT_TualetPaper",
+                "EFT_Trotil",
+                "EFT_Transmitter",
+                "EFT_GyroTachometr",
+                "EFT_bloodset",
+                "EFT_GyroScope",
+                "EFT_ToothPaste2",
+                "EFT_GreenBat",
+                "EFT_ToothPaste",
+                "EFT_GPhone",
+                "EFT_GPhone_G",
+                "EFT_Tools_files",
+                "EFT_GP",
+                "EFT_Thermometr",
+                "EFT_gold_chain",
+                "EFT_geger",
+                "EFT_Tetris",
+                "EFT_Gasolin",
+                "EFT_WaterFilter",
+                "EFT_gasanalyze",
+                "EFT_Vitamins",
+                "EFT_Fuel",
+                "EFT_videocard",
+                "EFT_FlashStorage",
+                "EFT_Military_flash",
+                "EFT_Vertex",
+                "EFT_Filtr",
+                "EFT_Antique_teapot",
+                "EFT_FAR",
+                "EFT_Engine",
+                "EFT_Old_vase",
+                "EFT_Elibadge",
+                "EFT_Electric_Drill",
+                "EFT_Uzrgm",
+                "EFT_USBadapter",
+                "EFT_zibbo_g",
+                "EFT_zibbo",
+                "EFT_Advwrench",
+                "EFT_Ratchetwrench",
+                "EFT_Woodclock",
+                "EFT_Wires",
+                "EFT_WeaponParts",
+                "EFT_Egg",
+                "EFT_DVD",
+                "EFT_dogtag",
+                "EFT_Dobby",
+                "EFT_diary",
+                "EFT_Diagset",
+                "EFT_Defibrilator",
+                "EFT_Cyclon",
+                "EFT_crikent",
+                "EFT_CPU",
+                "EFT_Cooler",
+                "EFT_Coffe",
+                "EFT_Cloth_aramid",
+                "EFT_Cloth_cordura",
+                "EFT_Cloth_fleece",
+                "EFT_Cloth_ripstop",
+                "EFT_Cloth_paracord",
+                "EFT_Chlorine",
+                "EFT_Chiken",
+                "EFT_Cat",
+                "EFT_Cablecutter",
+                "EFT_Capacitors",
+                "EFT_BTC",
+                "EFT_Bolts",
+                "EFT_Bloodset",
+                "EFT_Bleach",
+                "EFT_Beardoil",
+                "EFT_battery_AA",
+                "EFT_battery_D",
+                "EFT_Ballon_gas",
+                "EFT_Airfilter",
+                "EFT_Bage",
+                "EFT_military_jammer",
+                "EFT_Lamp_UF",
+                "EFT_Envelope",
+                "EFT_Electric_components",
+                "EFT_Converter_electric",
+                "EFT_Bronze_watch",
+                "EFT_ADV_controller",
+                "EFT_toys_Bear",
+                "EFT_toys_Santa",
+                "EFT_toys_Scaw01",
+                "EFT_toys_Scaw02",
+                "EFT_toys_Scaw03",
+                "EFT_toys_Sectant",
+                "EFT_toys_USEC",
+                "EFT_Camera",
+                "EFT_Jammer",
+                "EFT_MS2000"
+            ]
+        },
+        {
+            "name": "LC_Table_Ammo",
+            "Loot": [
+                "AmmoBox_545x39_20Rnd"
+            ]
+        }
+    ]
+}
